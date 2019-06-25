@@ -1,7 +1,7 @@
 const planets = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"]
 
 let section = document.createElement("section")
-section.setAttribute("id", "planets")
+    section.setAttribute("id", "planets")
 
 document.querySelector("body").appendChild(section)
 let planetsId = document.querySelector("#planets")
